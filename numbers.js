@@ -13,4 +13,4 @@ console.log(balance1.toPrecision(4)); // 100.0  // total length 4 (including dec
 
 const otherNumber = 123456789;
 console.log(otherNumber.toLocaleString("en-IN")); // 12,34,56,789  // for india
-console.log(otherNumber.toLocaleString("en-US")); // 123,456,789  // for US
+console.log(otherNumber.toLocaleString("en-US")); // 123,456,789  // for US   
