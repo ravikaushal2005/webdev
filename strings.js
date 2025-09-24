@@ -27,3 +27,20 @@ console.log(name.charAt(2))
 console.log(name.indexOf('v')) // 2
   
 
+const newString= "    ravi kumar    "
+console.log(newString)  //     ravi kumar
+console.log(newString.trim())  // ravi kumar   remove extra space from start and end
+
+
+const newString2= "ravi kumar "
+console.log(newString2.replace("kumar","kaushal"))  // ravi kaushal   // replace kumar to kaushal
+
+const url = "https://www.ravi.com/ravi%20kaushal"
+console.log(url.replace("%20","-"))  // https://www.ravi.com/ravi-kaushal   // replace %20 to -
+
+console.log(url.includes("ravi"))  // true   // check ravi is present or not
+console.log(url.includes("kaushal"))  //true   // check kaushal is present or
+
+
+const clientname= "ravi-kumar-kaushal "
+console.log(clientname.split("-"))  // [ 'ravi', 'kumar',  ]   // split string to array
